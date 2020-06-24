@@ -12,7 +12,7 @@ For installing the package, you should download the repository and run
 python setup.py install
 ```
 
-For running the code, you need to have Python 3.7 or higher installed. In addition, these are the main dependencies:
+For running the code, you need to have Python 3.6 or higher installed. In addition, these are the main dependencies:
 
 ```yaml
 - cudatoolkit: 10.1.243 # in case of GPU exastnace
@@ -30,6 +30,7 @@ For running the code, you need to have Python 3.7 or higher installed. In additi
 - tensorboard: 1.14.0
 - tensorflow: 1.14.0
 - tensorflow-gpu: 1.14.0 # in case of GPU exastnace
+- pandas: 1.0.3
 ```
 
 The code automatically checks if the GPU exists. In case it won't find GPU, it will give relevant warnings and starts the calculation with CPU.
