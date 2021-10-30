@@ -2,7 +2,7 @@
 # Dockerfile for the Face Detection Service
 
 # Use an official Python runtime as a parent image
-FROM tensorflow/tensorflow:1.14.0-gpu-py3
+FROM tensorflow/tensorflow:1.15.0-gpu-py3
 
 # Set the working directory to /app
 WORKDIR /app
